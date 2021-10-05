@@ -17,5 +17,13 @@ namespace oop_less_4_tues_parking.models
         {
             return "---------------------CarparkCharge";
         }
+
+        public int CalculateCharge(int hoursParked)
+        {
+            int minimumFee = 2;
+
+            return hoursParked * 2;
+
+        }
     }
 }

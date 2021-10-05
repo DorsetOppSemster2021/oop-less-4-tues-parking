@@ -21,7 +21,7 @@ namespace oop_less_4_tues_parking.models
             Carpark carpark = new Carpark();
             Console.WriteLine(carpark.ToString());
 
-            Customer customer = new Customer();
+            Customer customer = new Customer("D2020", 3);
             Console.WriteLine(customer.ToString());
 
             CarparkCharge carparkcharge = new CarparkCharge();
@@ -35,11 +35,11 @@ namespace oop_less_4_tues_parking.models
             Console.WriteLine("PopulateCarPark");
             Carpark carpark = new Carpark();
 
-            Customer c1 = new Customer();
-            Customer c2 = new Customer();
-            Customer c3 = new Customer();
-            Customer c4 = new Customer();
-            Customer c5 = new Customer();
+            Customer c1 = new Customer("D2020", 2);
+            Customer c2 = new Customer("C2020", 4);
+            Customer c3 = new Customer("E2020", 6);
+            Customer c4 = new Customer("F2020", 8);
+            Customer c5 = new Customer("G2020", 10);
 
             carpark.listOfCustomers.Add(c1);
             carpark.listOfCustomers.Add(c2);

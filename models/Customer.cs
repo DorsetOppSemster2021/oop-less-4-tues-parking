@@ -8,14 +8,18 @@ namespace oop_less_4_tues_parking.models
 {
     public class Customer
     {
-        public Customer()
+        public string carRegistration { get; set; }
+        public int hoursParked { get; set; }
+        public Customer(string _carRegistration, int _hoursParked)
         {
+            carRegistration = _carRegistration;
+            hoursParked = _hoursParked;
             Console.WriteLine("Starting Customer Class");
         }
 
         public override string ToString()
         {
-            return "---------------------CustomerClass";
+            return $"---------------------CustomerClass{carRegistration} : {hoursParked}";
         }
     }
 }
