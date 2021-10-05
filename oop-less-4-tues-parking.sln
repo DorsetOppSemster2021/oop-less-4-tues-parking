@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-less-4-tues-parking", "oop-less-4-tues-parking.csproj", "{6341A134-7EE8-44B8-AD1B-6CF1C48B3754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6341A134-7EE8-44B8-AD1B-6CF1C48B3754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6341A134-7EE8-44B8-AD1B-6CF1C48B3754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6341A134-7EE8-44B8-AD1B-6CF1C48B3754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6341A134-7EE8-44B8-AD1B-6CF1C48B3754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6D69A4D-3D99-44E5-9D34-9E57FE3F47E5}
+	EndGlobalSection
+EndGlobal
