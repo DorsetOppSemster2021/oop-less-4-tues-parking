@@ -8,8 +8,12 @@ namespace oop_less_4_tues_parking.models
 {
     public class CarparkCharge
     {
-        public CarparkCharge()
+        public int minimumFee { get; set;  }
+        public int minimumHours { get; set; }
+        public CarparkCharge(int _minimumFee=2, int _minimumHours = 3)
         {
+            minimumFee = _minimumFee;
+            minimumHours = _minimumHours;
             Console.WriteLine("Starting CarparkCharge Class");
         }
 
@@ -20,9 +24,9 @@ namespace oop_less_4_tues_parking.models
 
         public int CalculateCharge(int hoursParked)
         {
-            int minimumFee = 2;
+          
 
-            return hoursParked * 2;
+            return hoursParked * minimumFee;
 
         }
     }
